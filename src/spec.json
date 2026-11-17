@@ -1,0 +1,274 @@
+{
+  "title": "Gestione dei corsi di formazione",
+  "description": "Prototipo per consultare, filtrare e pianificare corsi interni, con disponibilità dei posti e informazioni sui docenti.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo dei corsi in programma e dei posti disponibili.",
+      "metrics": [
+        {
+          "label": "Corsi in programma",
+          "value": "12"
+        },
+        {
+          "label": "Posti disponibili",
+          "value": "86"
+        },
+        {
+          "label": "Docenti coinvolti",
+          "value": "9"
+        },
+        {
+          "label": "Corsi conclusi",
+          "value": "7"
+        }
+      ],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Data inizio",
+        "Data fine",
+        "Posti disponibili",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Fondamenti di analisi dati",
+          "Neri Lumo",
+          "12/05/2026",
+          "13/05/2026",
+          "8",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Scrittura chiara",
+          "Mira Vela",
+          "19/05/2026",
+          "19/05/2026",
+          "12",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Collaborazione digitale",
+          "Timo Nubi",
+          "26/05/2026",
+          "27/05/2026",
+          "6",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Gestione dei progetti",
+          "Leda Brina",
+          "03/06/2026",
+          "04/06/2026",
+          "10",
+          "In programma"
+        ],
+        [
+          "Presentazioni efficaci",
+          "Rino Selva",
+          "10/06/2026",
+          "10/06/2026",
+          "14",
+          "In programma"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "catalogo-corsi",
+      "title": "Catalogo corsi",
+      "description": "Consulta e filtra il catalogo dei corsi, verificando date, docenti e capienza residua.",
+      "metrics": [
+        {
+          "label": "Corsi a catalogo",
+          "value": "12"
+        },
+        {
+          "label": "Iscrizioni aperte",
+          "value": "8"
+        },
+        {
+          "label": "Posti disponibili",
+          "value": "86"
+        }
+      ],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Data inizio",
+        "Data fine",
+        "Posti disponibili",
+        "Capienza",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Fondamenti di analisi dati",
+          "Neri Lumo",
+          "12/05/2026",
+          "13/05/2026",
+          "8",
+          "16",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Scrittura chiara",
+          "Mira Vela",
+          "19/05/2026",
+          "19/05/2026",
+          "12",
+          "18",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Collaborazione digitale",
+          "Timo Nubi",
+          "26/05/2026",
+          "27/05/2026",
+          "6",
+          "14",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Gestione dei progetti",
+          "Leda Brina",
+          "03/06/2026",
+          "04/06/2026",
+          "10",
+          "20",
+          "In programma"
+        ],
+        [
+          "Presentazioni efficaci",
+          "Rino Selva",
+          "10/06/2026",
+          "10/06/2026",
+          "14",
+          "18",
+          "In programma"
+        ],
+        [
+          "Organizzazione del lavoro",
+          "Vera Quarzo",
+          "16/06/2026",
+          "16/06/2026",
+          "5",
+          "15",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Comunicazione tra gruppi",
+          "Daro Faggio",
+          "22/06/2026",
+          "23/06/2026",
+          "9",
+          "16",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Strumenti per la pianificazione",
+          "Ila Rame",
+          "30/06/2026",
+          "30/06/2026",
+          "7",
+          "12",
+          "Iscrizioni aperte"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuovo-corso",
+      "title": "Pianifica un corso",
+      "description": "Inserisci un nuovo corso e definisci docente, calendario e disponibilità dei posti.",
+      "metrics": [],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Data inizio",
+        "Data fine",
+        "Posti disponibili",
+        "Capienza"
+      ],
+      "rows": [],
+      "form": [
+        "Corso",
+        "Docente",
+        "Data inizio",
+        "Data fine",
+        "Posti disponibili",
+        "Capienza"
+      ]
+    },
+    {
+      "id": "docenti",
+      "title": "Docenti",
+      "description": "Esplora i corsi assegnati ai docenti e il relativo calendario.",
+      "metrics": [
+        {
+          "label": "Docenti attivi",
+          "value": "9"
+        },
+        {
+          "label": "Corsi assegnati",
+          "value": "12"
+        }
+      ],
+      "columns": [
+        "Docente",
+        "Area formativa",
+        "Corsi assegnati",
+        "Prossimo corso",
+        "Data prossimo corso"
+      ],
+      "rows": [
+        [
+          "Neri Lumo",
+          "Analisi e strumenti",
+          "2",
+          "Fondamenti di analisi dati",
+          "12/05/2026"
+        ],
+        [
+          "Mira Vela",
+          "Comunicazione",
+          "2",
+          "Scrittura chiara",
+          "19/05/2026"
+        ],
+        [
+          "Timo Nubi",
+          "Collaborazione",
+          "1",
+          "Collaborazione digitale",
+          "26/05/2026"
+        ],
+        [
+          "Leda Brina",
+          "Pianificazione",
+          "2",
+          "Gestione dei progetti",
+          "03/06/2026"
+        ],
+        [
+          "Rino Selva",
+          "Comunicazione",
+          "1",
+          "Presentazioni efficaci",
+          "10/06/2026"
+        ],
+        [
+          "Vera Quarzo",
+          "Organizzazione",
+          "1",
+          "Organizzazione del lavoro",
+          "16/06/2026"
+        ]
+      ],
+      "form": []
+    }
+  ]
+}
